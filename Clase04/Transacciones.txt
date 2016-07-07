@@ -1,0 +1,63 @@
+PROCESO: REGISTRAR DEPOSITO
+======================================
+
+1.- El saldo aumenta (Tabla CUENTA)
+2.- El contador también aumenta (Tabla CUENTA)
+3.- Se registra el movimiento (Tabla MOVIMIENTO)
+
+OPCION 1
+--------
+1.- Leer datos de la cuenta (saldo y contador)
+2.- Actualizar cuenta (saldo y contador)
+3.- Registrar movimiento
+
+OPCION 2
+--------
+1.- Actualizar cuenta (saldo y contador)
+2.- Leer datos de la cuenta (contador)
+3.- Registrar movimiento
+
+
+-- CUENTA
+
+chr_cuencodigo
+chr_monecodigo
+chr_sucucodigo
+chr_emplcreacuenta
+chr_cliecodigo
+dec_cuensaldo
+dtt_cuenfechacreacion
+vch_cuenestado
+int_cuencontmov
+chr_cuenclave
+
+dec_cuensaldo, int_cuencontmov  chr_cuencodigo
+
+-- 	MOVIMIENTO
+
+chr_cuencodigo
+int_movinumero
+dtt_movifecha
+chr_emplcodigo
+chr_tipocodigo
+dec_moviimporte
+CHR_CUENREFERENCIA
+
+
+
+EJERCICIO
+-----------------------
+Programar el retiro.
+
+
+
+
+
+
+
+
+
+
+
+
+

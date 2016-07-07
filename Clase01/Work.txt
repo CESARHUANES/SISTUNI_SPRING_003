@@ -1,0 +1,16 @@
+- Arquitectura de Software: 
+  - Programación en capas
+  - Bajo acoplamiento
+  - Alta cohesión
+
+- Se espera
+  - Desarrollo rápido
+  - Software mantenible  
+
+- Aplicar
+  - Programación basada en interfaces
+  - Polimorfismo
+
+  
+  
+  
